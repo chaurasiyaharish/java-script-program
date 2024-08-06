@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            justify-content: center;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button onmouseenter="chengebgcolour('red')">red</button>
+    <button onclick="chengebgcolour('green')">green</button>
+    <button onclick="chengebgcolour('blue')">blue</button>
+    <button onclick="chengebgcolour('yellow')">yellow</button>
+
+    <script>
+        function chengebgcolour(color){
+            document.body.style.backgroundColor = color;
+        }
+        
+    </script>
+</body>
+</html>
