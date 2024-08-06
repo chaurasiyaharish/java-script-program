@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ar= [1,2,3,4,5,6,7,66,7,58,6,7,];
+        // let data= ar.filter((e)=>{return e>3}); // jitne bhi 3 se greter number hai sabhi print hoge 
+        // filter function data ko filter krne ka kam krta hai kisi bhi specific condition me 
+        // yha e ek object hai 
+        let data= ar.filter((e)=>{return e%2==0}); // sabhi even number print hogi 
+        // console.log(data);
+        document.write(data);
+    </script>
+</body>
+</html>
