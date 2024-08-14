@@ -35,14 +35,14 @@
 
 //06-07-2024
 
-// wap to make a calculater using switcj case
+// wap to make a calculater using switch case
 
  var a = parseInt(prompt("enter st number"))
  var b = parseInt(prompt("enter second number"))
 var ch = parseInt(prompt("1 for +,2 for *, 3 for -, 4 for /" ))
 switch (ch){
     case 1:
-        alert(a+b)
+        document.write(a+b)
         break;
     case 2:
         alert(a*b)

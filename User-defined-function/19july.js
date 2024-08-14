@@ -10,16 +10,31 @@
 
 //wap to take input from the user and print the table that number using function with para no return value
 
+//  print table with function
 
-// function table(n){
-//     for(let i=1;i<11;i++){
-//   document.write(n*i)
-//   document.write("<br>")
-//     //  console.log(n*i)
+function table(n){
+    for(let i=1;i<11;i++){
+  document.write(n + " * "+ i + " = " + n*i + "<br>")
+  if(i>10){
+     document.write("\t")
+  }
+  //document.write("<br>")
+    // console.log(n*i)
+}
+}
+let num =parseInt(prompt("enter any number"))
+table(num)
+var num2 = parseInt(prompt("enter any number: "))
+table(num2)
+var num3 = parseInt(prompt("enter any number: "))
+table(num2)
+
+//  print table without function
+
+// let num1 = parseInt(prompt("enter any numer: "))
+// for(let i = 0;i<11;i++){
+//      document.write(n + " x "+ i + " = " + n*i + "<br>")
 // }
-// }
-// let num =parseInt(prompt("enter any number"))
-// table(num)
 
 
 //Q-3
@@ -33,6 +48,7 @@
 // cube(num)
 
 //Q-4
+//     with para no return
 
 // function num(a){
 //   if(a>=1 && a<=10)
@@ -55,13 +71,13 @@
 // num(a);
 
 //Q-5
-var sum =0
-function demo(){
-     for(let i=1;i<=10;i++){
-      sum = sum+i
-    //  document.write(i)
-     }
-     return sum;
-}
-//console.log(demo())
-document.write(demo())
+// var sum =0
+// function demo(){
+//      for(let i=1;i<=10;i++){
+//       sum = sum+i
+//     //  document.write(i)
+//      }
+//      return sum;
+// }
+// //console.log(demo())
+// document.write(demo())
