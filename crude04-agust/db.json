@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "employeeno": 1,
+      "name": "harish",
+      "salary": 30000,
+      "city": "bhopal"
+    },
+    {
+      "id": "2",
+      "employeeno": 2,
+      "name": "satendra",
+      "salary": 40000,
+      "city": "rewa"
+    },
+    {
+      "id": "3",
+      "employeeno": 3,
+      "name": "lucky",
+      "salary": 50000,
+      "city": "rajasthan"
+    },
+    {
+      "id": "4",
+      "employeeno": 4,
+      "name": "adarsh",
+      "salary": 55000,
+      "city": "rewa"
+    },
+    {
+      "id": "39ac",
+      "employeeno": "45",
+      "name": "john",
+      "city": "Rewa",
+      "salary": "45000"
+    },
+    {
+      "id": "68bc",
+      "employeeno": "06",
+      "name": "RAM",
+      "city": "PUNE",
+      "salary": "60000"
+    }
+  ]
+}
